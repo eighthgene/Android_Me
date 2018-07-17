@@ -69,7 +69,7 @@ public class BodyPartFragment extends Fragment {
         // Otherwise, create a Log statement that indicates that the list was not found
         if(mImageIds != null){
             // Set the image resource to the list item at the stored index
-
+            imageView.setImageResource(mImageIds.get(mListIndex));
 
             // COMPLETED (1) Set a click listener on the image view and on a click increment the list index and set the image resource
             imageView.setOnClickListener(new View.OnClickListener() {

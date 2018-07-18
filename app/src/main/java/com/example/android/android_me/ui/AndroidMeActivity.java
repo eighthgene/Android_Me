@@ -37,7 +37,7 @@ public class AndroidMeActivity extends AppCompatActivity {
 
             // COMPLETED (5) Retrieve list index values that were sent through an intent; use them to display the desired Android-Me body part image
                 // Use setListindex(int index) to set the list index for all BodyPartFragments
-            int headIndex = getIntent().getIntExtra("bodyIndex", 0);
+            int headIndex = getIntent().getIntExtra("headIndex", 0);
             int bodyIndex = getIntent().getIntExtra("bodyIndex", 0);
             int legsIndex = getIntent().getIntExtra("legsIndex", 0);
 

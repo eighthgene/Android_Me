@@ -23,7 +23,7 @@ import android.widget.Toast;
 import com.example.android.android_me.R;
 
 // This activity is responsible for displaying the master list of all images
-// COMPLETED (4) Implement the MasterListFragment callback, OnImageClickListener
+//  COMPLETED (4) Implement the MasterListFragment callback, OnImageClickListener
 public class MainActivity extends AppCompatActivity implements MasterListFragment.OnImageClickListener {
 
 

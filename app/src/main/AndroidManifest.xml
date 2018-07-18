@@ -14,7 +14,7 @@
         <activity android:name=".ui.AndroidMeActivity">
 
         </activity>
-        <activity android:name=".data.MainActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

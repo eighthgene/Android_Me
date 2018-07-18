@@ -23,7 +23,7 @@ public class MasterListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_master_list, container, false);
 
-        GridView gridView =  (GridView) view.findViewById(R.id.images_grid_view);
+        GridView gridView = (GridView) view.findViewById(R.id.images_grid_view);
 
         MasterListAdapter adapter = new MasterListAdapter(getContext(), AndroidImageAssets.getAll());
 
